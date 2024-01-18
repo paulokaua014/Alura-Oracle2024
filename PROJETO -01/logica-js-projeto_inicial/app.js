@@ -7,7 +7,7 @@ let tentativas = 1;
 while (chute!= numeroSecreto) {
     chute = prompt('Escolha o numero de 1 a 100');
     if(chute == numeroSecreto){
-        alert('isso ai!! voce acertou o numero secreto com tantas ' +tentativas);
+        break;
     }else{
         if (chute > numeroSecreto) {
             alert('Numero secreto e menor '+chute);
@@ -16,4 +16,9 @@ while (chute!= numeroSecreto) {
         }
     };
     tentativas++;
+}
+if(tentativas > 1){
+    alert('isso ai!! voce acertou o numero secreto com ' +tentativas + ' tentativas');
+}else{
+    alert('isso ai!! voce acertou o numero secreto com ' +tentativas + ' tentativa');
 }
