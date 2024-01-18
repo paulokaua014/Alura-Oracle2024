@@ -17,8 +17,6 @@ while (chute!= numeroSecreto) {
     };
     tentativas++;
 }
-if(tentativas > 1){
-    alert('isso ai!! voce acertou o numero secreto com ' +tentativas + ' tentativas');
-}else{
-    alert('isso ai!! voce acertou o numero secreto com ' +tentativas + ' tentativa');
-}
+let palavratentativa = tentativas > 1 ? ' tentativas' : ' tentativa'
+alert('isso ai!! voce acertou o numero secreto com ' +tentativas + palavratentativa);
+
