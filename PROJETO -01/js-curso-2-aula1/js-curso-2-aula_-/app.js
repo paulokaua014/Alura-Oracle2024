@@ -1,4 +1,5 @@
 let numeroSecreto = gerarNumeroAleatorio();
+let tentativas = 1;
 
 function exiberTextoNaTela(tag, texto) {
     let = campo = document.querySelector(tag);
@@ -11,14 +12,18 @@ function verificarChute() {
     let chute = document.querySelector('input').value
     if(chute == numeroSecreto){
         exiberTextoNaTela('h1', 'Acertou!!');
-        exiberTextoNaTela('p','Parabens por acertar o numero secreto');
+        let palavraTentatia = tentativas > 1 ? 'Tentativas':'tentativa'
+        let mensagemTentativas = `Parabens por acertar o numero secreto com ${tentativas} ${palavraTentatia}!!`;
+        exiberTextoNaTela('p', mensagemTentativas);
     }else{
     if (chute > numeroSecreto) {
         exiberTextoNaTela('p','O numero secreto e menor!!');
     }else{
         exiberTextoNaTela('p', 'O numero secreto e maior!!');
     }
+    tentativas++
     }
+    
 };
 function gerarNumeroAleatorio() {
    return parseInt(Math.random() * 10 + 1);
