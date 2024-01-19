@@ -8,7 +8,8 @@ exiberTextoNaTela('h1', 'Jogo do Numero Secreto')
 exiberTextoNaTela('p', 'Escolha um numero entre 1 e 100')
 
 function verificarChute() {
-    console.log(numeroSecreto);
+    let chute = document.querySelector('input').value
+    console.log(chute == numeroSecreto);
 };
 function gerarNumeroAleatorio() {
    return parseInt(Math.random() * 10 + 1);
