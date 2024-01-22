@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    height: 100vh;
+    height: 85vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #f6f6f6;
@@ -35,4 +35,16 @@ body{
 .apresentacao_link{
     display: flex;
     justify-content: space-between;
+}
+.apresentacao_link_link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
 }
