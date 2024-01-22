@@ -11,3 +11,11 @@ body{
 .destaque_titulo{
     color: #22D4FD;
 }
+
+.apresentacao-conteudo{
+    display: flex;
+    align-items: center;
+}
+.imagem-principal{
+
+}
