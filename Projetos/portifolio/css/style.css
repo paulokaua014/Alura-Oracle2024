@@ -3,6 +3,8 @@
     margin: 0;
 }
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #f6f6f6;
 }
