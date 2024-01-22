@@ -12,9 +12,22 @@ body{
     color: #22D4FD;
 }
 
-.apresentacao-conteudo{
+.apresentacao{
+    margin: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px    ;
+    height: 482px;
+}
+.apresentacao__conteudo-titulo{
+    font-size: 36px;
+
+}
+.apresentacao__conteudo-discricao{
+    font-size: 24px;
 }
 .imagem-principal{
 
