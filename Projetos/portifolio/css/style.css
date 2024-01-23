@@ -36,17 +36,27 @@ body{
 }
 .apresentacao_link{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
     justify-content: space-between;
 }
+
+.apresentacao_link-subtitulo{
+    font-family:'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
 .apresentacao_link_link{
-    background-color: #22D4FD;
-    width: 280px;
+    /* background-color: #22D4FD; */
+    border: 2px solid #22D4FD;
+    width: 360px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
 }
