@@ -64,5 +64,6 @@ body{
     font-weight: 600;
 }
 .apresentacao_link_link:hover{
+    cursor: pointer;
     background-color: #272727;
 }
