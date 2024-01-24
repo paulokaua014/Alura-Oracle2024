@@ -105,6 +105,10 @@ body{
 @media (max-width:1200px) {
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width:auto  ;
     }
     .cabecario{
         padding:10%;
