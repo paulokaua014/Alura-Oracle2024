@@ -106,4 +106,10 @@ body{
     .apresentacao{
         flex-direction: column-reverse;
     }
+    .cabecario{
+        padding:10%;
+    }
+    .cabecario_menu{
+        justify-content: center;
+    }
 }
